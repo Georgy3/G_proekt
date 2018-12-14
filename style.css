@@ -1,0 +1,191 @@
+body {
+	margin:0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	max-width: 1140px; /*ширина сайта*/
+	margin: 0 auto; /*выравнивание сайта по центру экрана*/
+}
+.logo{
+	margin-top: 20px;
+
+}
+.header{
+	background-color: #01062D;
+	height: 140px;
+}
+.header-contacts{
+
+    display: flex;
+}
+.main-menu-list{
+    display: flex;
+    margin-left: 324px;
+	justify-content: space-around;
+	align-items: center;
+	flex-grow: 1;
+	list-style: none;
+}
+.main-menu-list a {
+    color: #a9a9a9;
+    text-decoration: none;
+}
+.main-menu-list a:hover { /*шапка заканчивается*/
+	color: #51AE;
+}
+.section-item{
+	margin-top: 50px;
+}
+.form-php{
+	margin-top: 50px;
+}
+.form-power{
+	margin-left: 250px;
+	margin-top: -36px;
+}
+.form-taim{
+	margin-left: 250px;
+	margin-top: -75px;
+}
+.form-taim-hour {
+	margin-left: 350px;
+	margin-top: -37px;
+}
+.form-taim-hour input{
+	width: 40px;
+}
+.form-taim-min{
+	margin-left: 550px;
+	margin-top: -35px;
+	width: 40px;
+}
+
+.form-c{
+	margin-left: 730px;
+	margin-top: -37px;
+}
+.form-taim-hour1{
+	margin-left: 740px;
+	margin-top: -37px;
+}
+.form-taim-min1{
+	margin-left: 940px;
+	margin-top: -37px;
+}
+.section-item-01{
+	margin-left: 140px;
+	margin-top: -730px;
+}
+.section-item-02{
+	margin-left: 140px;
+	margin-top: 240px;
+}
+.section-item-03{
+	margin-left: 700px;
+	margin-top: -155px;
+}
+.section-item-04{
+	margin-left: 990px;
+	margin-top: 153px;
+}
+.section-item-1{
+	margin-top: 80px;
+}
+.stolik01 {
+	
+	margin-left: 121px;
+	margin-top: -435px;
+}
+.section-item-2:hover{
+	
+transform: scale(1.3);
+transition-duration: 2s;
+transition-timing-function: ease-out;
+}
+
+.stolik1{
+	margin-left: 291px;
+	margin-top: -90px;
+}
+.stolik2{
+	margin-left: 461px;
+	margin-top: -90px;
+}
+.stolik3{
+	margin-left: 631px;
+	margin-top: -90px;
+}
+.stolik4{
+	margin-left: 121px;
+	margin-top: 183px;
+}
+.stolik5{
+	margin-left: 494px;
+	margin-top: -51px;
+}
+.stolik6{
+	margin-left: 700px;
+	margin-top: -45px;
+}
+.stolik7{
+	margin-left: 121px;
+	margin-top: -198px;
+}
+.stolik8{
+	margin-left: 291px;
+	margin-top: -55px;
+}
+.stolik9{
+	margin-left: 461px;
+	margin-top: -55px;
+}
+
+.stolik10{
+	margin-left: 631px;
+	margin-top: -55px;
+}
+.stolik11{
+	margin-left: 789px;
+	margin-top: -55px;
+}
+.stolik12{
+	margin-left: 290px;
+	margin-top: 92px;
+}
+.karta{
+	margin-top: 450px;
+}
+.footer{
+	background-color: #01062D;
+	height: 140px;
+	margin-top: 80px;
+}
+.logo1{
+	margin-top: ;
+}
+.section-footer{
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-grow: 1;
+	list-style: none;
+
+}
+.footer-menu a{
+     color: #a9a9a9;
+    text-decoration: none;
+}
+.footer-menu a:hover { 
+	color: #51AE;
+}
+.footer-ikon{
+	display: flex;
+	justify-content: space-around;
+	margin-top: -70px;
+	margin-left: 900px;
+	padding-right: 100px;
+}
